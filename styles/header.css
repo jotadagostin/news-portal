@@ -23,18 +23,21 @@
 
 @media screen and (max-width: 375px) {
   #primary {
-    div {
-      strong {
-        display: none;
-      }
-    }
-
-    div:nth-child(2) {
-      width: 100px;
-      height: 15px;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   #secondary {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .mobile {
+    display: none;
   }
 }
