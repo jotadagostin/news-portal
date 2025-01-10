@@ -109,3 +109,41 @@ aside {
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 375px) {
+  #featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  figure {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .card-mobile1 img {
+    width: 328px;
+    height: 416px;
+    object-fit: cover;
+  }
+  .content-tag_mobile {
+    position: absolute;
+    top: 276px;
+    left: 16px;
+  }
+
+  .h2-mobile {
+    position: absolute;
+    top: 304px;
+    left: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .flex-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
