@@ -138,6 +138,12 @@ aside {
     left: 20px;
   }
 
+  .content-tag_mobile3 {
+    position: absolute;
+    top: 8px;
+    left: 24px;
+  }
+
   .h2-mobile {
     position: absolute;
     top: 304px;
@@ -157,5 +163,30 @@ aside {
   .flex-mobile {
     display: flex;
     flex-direction: column;
+  }
+
+  #weekly {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #ai {
+    grid-area: ai;
+  }
+
+  .item:nth-child(1) {
+    order: 2;
+  }
+
+  .item:nth-child(2) {
+    order: 1;
+  }
+
+  #aside {
+    grid-area: aside;
+  }
+
+  .content-tag_ai {
+    margin-bottom: 8px;
   }
 }

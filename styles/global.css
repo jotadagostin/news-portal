@@ -80,3 +80,15 @@ main {
 li {
   list-style: none;
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+      "featured featured"
+      "weekly weekly"
+      "ai ai"
+      "aside aside";
+  }
+}
