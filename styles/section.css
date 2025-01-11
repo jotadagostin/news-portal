@@ -132,6 +132,12 @@ aside {
     left: 16px;
   }
 
+  .content-tag_mobile2 {
+    position: absolute;
+    top: 104px;
+    left: 20px;
+  }
+
   .h2-mobile {
     position: absolute;
     top: 304px;
@@ -140,6 +146,12 @@ aside {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .h2-mobile2 {
+    position: absolute;
+    top: 140px;
+    left: 20px;
   }
 
   .flex-mobile {
